@@ -1,10 +1,10 @@
-# websocket_test_server
+# websocket_tool_rs
 websocketの接続テストなどをするためのサーバーおよびクライアント実装です。
 
 下記のリファレンス実装を元に、動作を明らかにするためにリファクタを加えた形です。
 https://github.com/actix/examples/tree/master/websocket
 
-Rustの勉強とwebsocketの実験用に作りました。両方ともテストに使いやすいように拡張していけるといいですね。
+Rustの勉強とwebsocketの実験用に作りました。サーバーおよびクライアントともテストに使いやすいように拡張していけるといいですね。
 
 ## リファクタ箇所
 - エラーハンドリングの改善(unwrap less)
